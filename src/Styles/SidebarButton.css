@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+}
+.btnCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.Provider {
+    font-size: 25px;
+    color: #f1f1f1;
+}
+.btntitle {
+    font-size: 1.1rem;
+    color: #f1f1f1;
+}

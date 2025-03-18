@@ -1,0 +1,6 @@
+.ScreenContainer {
+    width: calc(100% - 100px);
+    height: 100%;
+    background-color: black;
+    border-radius: 0px;
+}
