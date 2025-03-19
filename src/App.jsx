@@ -23,7 +23,7 @@ function App() {
     <Router>
       <Navbar onLogin={handleLogin} onLogout={handleLogout} isLoggedIn={isLoggedIn}/>
       <div className='main'>
-        <Sidebar />
+        {/* <Sidebar /> */}
         <AppRoute isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} setCurrentSong={setCurrentSong} currentSong={currentSong}/>
       </div>
     </Router>
